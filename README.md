@@ -71,7 +71,7 @@ This architecture reflects practical AI deployment, where models are executed lo
 
 * **Backend**: Flask (Python)
 * **LLM**: LLaMA 3.x (Local Inference)
-* **Fine-Tuning Adapter**: Hugging Face (LoRA / QLoRA)
+* **Fine-Tuning Adapter**: LoRA / QLoRA (via Unsloth)
 * **Database**: SQLite
 * **Frontend**: HTML, TailwindCSS
 * **Deployment Style**: Local / On-Prem Ready
