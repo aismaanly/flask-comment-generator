@@ -4,6 +4,10 @@ This repository demonstrates how a **fine-tuned Large Language Model (LLM)** can
 
 The main focus of this project is **AI system integration** — translating a fine-tuned LLM into a usable product by handling inference, data flow, and persistence within a web-based system.
 
+![output](output.png)
+![barchart](barchart.png)
+![wordcloud](wordcloud.png)
+
 > 🔗 **Want to see how the model was built and fine-tuned?**  
 > 👉 Model Development Repository:  
 > https://github.com/aismaanly/ai-comment-generator
@@ -87,8 +91,8 @@ cd flask-comment-generator
 
 ```bash
 python -m venv venv
-source venv/bin/activate      # macOS / Linux
 venv\Scripts\activate         # Windows
+source venv/bin/activate      # macOS / Linux
 ```
 
 ### 3️⃣ Install Dependencies
@@ -131,4 +135,4 @@ For a deeper look into:
 * LLM fine-tuning with QLoRA
 
 👉 Visit the model pipeline repository:
-[https://github.com/aismaanly/ai-comment-generator](https://github.com/aismaanly/ai-comment-generator)
+https://github.com/aismaanly/ai-comment-generator
